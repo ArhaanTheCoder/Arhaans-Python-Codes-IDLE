@@ -13,7 +13,7 @@ my_turtle.speed(1)    # turtle speed: 1 (slow) to 10 (fast)
 # Draw a square
 for _ in range(4):
     my_turtle.forward(100)  # makes the turtle draw 100 pixels for one side - changeable
-    my_turtle.right(90)     # turns the turtle 90 degrees to the right
+    my_turtle.right(90)     # turns the turtle 90 degrees to the right - changeable
 
 # Keep the window open until closed
 turtle.done()
